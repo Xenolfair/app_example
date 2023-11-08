@@ -16,6 +16,10 @@ h1 {
     color: rgb(43, 42, 42);
 }
 
+a{ 
+    text-decoration: none;
+}
+
 button {
     border-radius: 15px;
     background-color: rgb(252, 54, 54);
