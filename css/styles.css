@@ -1,0 +1,33 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.nameButton{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(43, 42, 42);
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(252, 54, 54);
+    color: rgb(255, 255, 255);
+    padding: 4px 8px 4px 8px;
+    border: 1.5px black solid;
+    cursor: pointer;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+    background-color: rgb(226, 153, 153);
+    color: black;
+    padding: 5px 9px 5px 9px;
+    transition: 0.5s;
+}
